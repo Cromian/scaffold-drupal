@@ -1,0 +1,15 @@
+name: Scaffold
+type: theme
+description: 'Scaffold Base Drupal Theme'
+core: 8.x
+base theme: classy
+
+libraries:
+  - scaffold/global
+  - scaffold/font-awesome
+
+regions:
+  header: Header
+  notice: Notice
+  content: Content
+  footer: Footer
